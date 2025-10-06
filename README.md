@@ -7,3 +7,5 @@ Accounts
 Student : email: aimai@gmail.com   Password: test1234
 Mentor:   email:  mentor@gmail.com  Password: mentor1234
 Company    email:  company1@gmail.com Password company1234
+
+AIMAI 2025
