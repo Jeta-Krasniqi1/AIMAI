@@ -4,7 +4,7 @@ require 'config.php';
 
 if (!isset($_SESSION['login_time'])) {
     $_SESSION['login_time'] = time();
-}
+}                
 
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'mentor') {
     header("Location: login.php");
@@ -1286,4 +1286,5 @@ function generateAICoachingAdvice($pdo, $goal, $progress) {
         });
     </script>
 </body>
+
 </html>
